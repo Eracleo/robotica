@@ -3,9 +3,10 @@
 #define pin6 6
 #define pin5 5
 
+
 char buffer[64];
 char dato;
-
+int byteRecibido = 0;
 void setup()
  {
     // Inicializamos los pines como pines de salida
